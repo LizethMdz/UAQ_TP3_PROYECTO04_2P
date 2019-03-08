@@ -1400,6 +1400,17 @@ margin-left: 5px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+	h1, h2{
+	text-align: center;
+	}
+	.ribbon{
+		margin: 15px;
+
+	}
+
+	.el-title{
+		text-align: center;
+	}
 }
 
 /* Large Mobile :480px. */
@@ -1519,6 +1530,18 @@ margin-left: 5px;
 	.search-moderl-form input {
 		width: 100%;
 	}
+
+	h1, h2{
+	text-align: center;
+	}
+	.ribbon{
+		margin: auto;
+		padding: inherit;
+	}
+
+	.el-title{
+		text-align: center;
+	}
 }
 
 /* Medium Mobile :480px. */
@@ -1527,11 +1550,33 @@ margin-left: 5px;
 	.slider-item .si-text-box {
 		width: 470px;
 	}
+	h1, h2{
+	text-align: center;
+	}
+	.ribbon{
+		margin: auto;
+		padding: inherit;
+	}
+
+	.el-title{
+		text-align: center;
+	}
 }
 
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+	h1, h2{
+	text-align: center;
+	}
+	.ribbon{
+		margin: auto;
+		padding: inherit;
+	}
+
+	.el-title{
+		text-align: center;
+	}
 	.slider-item {
 		padding: 0 15px;
 	}
