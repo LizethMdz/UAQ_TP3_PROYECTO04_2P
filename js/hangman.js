@@ -1,7 +1,7 @@
 // Definimos las variables globales que vamos a utilizar
 // durante nuestra partida.
 
-var words = [['ordenador'], ['videojuego'], ['playstation'], ['mesa'], ['shogo'], ['timesplitters'], ['colina'], ['didacta'], ['consola'], ['original'], ['region'], ['shader'], ['teclado'], ['raton']];
+var words = [['felicidad'], ['exito'], ['disciplina'], ['mentalidad'], ['direccion'], ['gratitud'], ['pasion'], ['integridad'], ['proposito'], ['trampa']];
 var word = '';
 var hidden_letter = [];
 var letter_space = document.getElementById("word");
@@ -75,6 +75,7 @@ function checkWord() {
     else if (hidden_letter.indexOf("_") == -1 ) {
         document.getElementById("image").src = 'img/hangman_win.jpg';
         document.getElementById('buttons').innerHTML = "<button class='btn-reload' onclick='location.reload()' >Volver a empezar</button>";
+        alert("Ganaste!!! Felicitaciones");
     }
 
 }
